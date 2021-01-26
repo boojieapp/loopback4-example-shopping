@@ -16,6 +16,7 @@ module.exports = {
   ],
   rules: {
     'mocha/handle-done-callback': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
   },
   parserOptions: {
     createDefaultProgram: true,
